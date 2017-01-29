@@ -1,0 +1,140 @@
+/*
+Theme Name: Clash Royale Decks
+Theme URI: http://clashroyaledecks.info
+Author: Anderson Poli
+Author URI: http://andersonp.com;
+Description: ClashRoyaleDecks
+Version: 1
+Text Domain: clashroyaledecks
+Domain Path: /languages/
+*/
+
+/* mobile first */
+
+body{font-family: 'Roboto Slab', serif;background-color: #f6f6f6;padding-top: 50px;}
+a {color:#488bf4;cursor:pointer;}
+a:hover{text-decoration:none;}
+input[type=text], input[type=email], textarea{border:none;background: none;border: 1px solid #BBB;border-radius: 5px;padding: 5px 10px;}
+input[type=submit]{background: #488bf4;color: white;border:none;border-radius:5px;padding: 5px 10px;}
+
+header#header{position: fixed;top: 0;width: 100%;z-index: 99999;}
+header#header .navbar{margin-bottom: 0;border-radius: 0;}
+header#header .navbar-inverse{background-color: #488bf4;border:none;}
+header#header .navbar-header .navbar-brand{height: 36px;width: 150px;background-image: url(img/logo.png);background-size: 150px 36px;margin-top: 8px;background-repeat: no-repeat;cursor: pointer;}
+header#header .navbar-header .navbar-brand span{text-indent: -9999px;display: block;}
+header#header .navbar-inverse .navbar-nav>li>a { color: white;font-size: 14px;text-transform: uppercase;}
+header#header .navbar-inverse .navbar-nav>li.active>a{color:#f6f6f6;background: none;}
+header#header .navbar-inverse .navbar-collapse{border-color: white;}
+header#header .navbar-inverse .navbar-toggle{border-color: white;}
+
+.crd-ad-topo{padding: 5px 0;width: 100%;background-color: #333;margin-bottom: 15px; display: none}
+.crd-ad-topo .crd-adsense{width: 320px; height: 50px; margin: 0 auto;}
+
+.crd-page-title{font-size: 24px;text-transform: uppercase;color: #333;}
+
+.crd-post{padding: 10px 20px;background-color: #fff;border-radius: 5px;box-shadow: 1px 1px 3px #c7c7c7; margin: 10px 0; position: relative;}
+.crd-post .title{font-family: 'Magic-font';font-size: 22px; line-height: 28px;}
+.crd-post .title a{color:#333;}
+.crd-post .title a:hover{color: #488bf4;text-decoration: none;}
+.crd-post .crd-meta{color: #777;font-size: 12px;margin: 5px 0;}
+
+.crd-post .veja-mais{position: absolute;right: 20px;bottom: 40px;display: block;width: 110px;font-size: 10px;text-align: center;border-radius: 5px;line-height: 35px;color: white;text-decoration: none;font-family: 'Magic-font';background-color: #488bf4;}
+
+.crd-post figure{width: 100%;text-align: center;margin: 15px auto;}
+.crd-post figure img, .crd-post img{max-width: 100%;height: auto;}
+.crd-post iframe {max-width: 320px; height: 180px;}
+.crd-post p{line-height: 20px;}
+
+.crd-post .crd-thedeck {margin: 20px;}
+.crd-post .crd-thedeck .card{font-size: 12px;margin: 15px auto;position: relative;padding-left: 0px!important;width: 135px;}
+.crd-post .crd-thedeck .card .elixir{content: "";position: absolute;top: -12px;left: -12px;width: 40px;height: 47px;background-image: url(img/elixir.png);background-size: 40px 47px;background-repeat: no-repeat;font-family: 'Magic-font';color: white;text-align: center;padding-top: 16px;font-size: 14px;text-shadow: 2px 2px 0 #000}
+.crd-post .crd-thedeck .card span{position: absolute;width: 85%;bottom: 10px;color: white;text-shadow: 1px 1px 0 #000;left: 0;font-family: 'Magic-font';font-size: 10px;text-align: center;}
+.crd-post .crd-thedeck .card img{max-width: 90%;height: auto;border-radius: 5px;border: 2px inset black;background-color: #000;}
+.crd-post .crd-thedeck .card.comum img{box-shadow: 2px 2px 2px #666, -2px -2px 2px #666, 2px -2px 2px #666, -2px 2px 2px #666;}
+.crd-post .crd-thedeck .card.rara img{box-shadow: 2px 2px 2px #d65b0d, -2px -2px 2px #d65b0d, 2px -2px 2px #d65b0d, -2px 2px 2px #d65b0d;}
+.crd-post .crd-thedeck .card.epica img{box-shadow: 2px 2px 2px #c900fd, -2px -2px 2px #c900fd, 2px -2px 2px #c900fd, -2px 2px 2px #c900fd;}
+.crd-post .crd-thedeck .card.lendaria img{box-shadow: 2px 2px 2px #65baba, -2px -2px 2px #65baba, 2px -2px 2px #65baba, -2px 2px 2px #65baba;}
+
+.crd-post .crd-card-levels{margin-bottom: 15px; width: 100%;font-family: 'Magic-font';float: left; background-color: #EEE; padding: 15px;border-radius: 5px;}
+.crd-post .crd-card-levels strong {display:block;padding-left:10px;font-size: 13px;color: black;margin-bottom: 5px}
+.crd-post .crd-card-levels ul{padding: 0 10px;}
+.crd-post .crd-card-levels ul li{display: block;float: left;width: 25%;padding: 5px 0;font-size: 10px;text-align: center;}
+.crd-post .crd-card-levels ul li.comum{color: #666;}
+.crd-post .crd-card-levels ul li.rara{color: #d65b0d;}
+.crd-post .crd-card-levels ul li.epica{color: #c900fd;}
+.crd-post .crd-card-levels ul li.lendaria{color: #65baba;}
+
+.crd-sidebar aside{padding:15px;background: white;border-radius: 5px;box-shadow: 1px 1px 3px #c7c7c7;margin: 10px 0;}
+.crd-sidebar aside .widget-title{font-family: 'Magic-font';margin-top: 0;font-size: 20px;}
+
+.crd-sidebar aside ul{padding:0 0 0 5px;}
+.crd-sidebar aside ul li{padding:0;list-style:none;margin-bottom: 10px;}
+.crd-sidebar aside ul li a{color: #333; font-size: 16px; line-height: 20px; cursor: pointer;}
+.crd-sidebar aside ul li a:hover{color: #488bf4;}
+
+.crd-commments, .crd-share{margin-bottom: 15px;}
+
+.crd-navigation {
+  width: 100%;
+}
+
+.crd-navigation  a{
+  display: block;
+  width: 160px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 40px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Magic-font';
+  background-color: #488bf4;
+}
+
+.crd-navigation  a:first-child{
+  float: left;
+}
+
+.crd-navigation  a:last-child{
+  float: right;
+}
+
+
+/* external elements */
+.sharedaddy {height: 75px;}
+
+.sharedaddy .sd-title{width: 100%;}
+
+.sd-social-icon .sd-content ul{float: left;width: 100%;}
+
+.sd-social-icon .sd-content ul li{display: block;float: left;}
+
+.sd-social-icon .sd-content ul li[class*=share-].share-whatsapp a.sd-button {background: url("data:image/png;base64,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");width: 32px;height: 32px;}
+
+.widgets-list-layout-links {float: left!important;padding-left: 10px!important;}
+.jp-relatedposts-post-context{display: none;}
+
+footer#footer{margin-top: 20px;width: 100%;padding: 20px 10px;background-color: #000;border-top: 5px solid #488bf4;color: white;}
+
+/* Desktops and more */
+@media only screen and (min-width : 992px) {
+  body{padding-top: 0px;}
+  header#header{position: relative;}
+  header#header .navbar-header .navbar-brand{height: 78px;width: 300px;background-size: 300px 78px;}
+  header#header .navbar-nav {margin-top: 15px;}
+  body.fixed-header{padding-top: 110px;}
+  body.fixed-header header#header{position: fixed;}
+  body.fixed-header header#header .navbar-header .navbar-brand{height: 36px;width: 150px;background-size: 150px 36px;}
+  body.fixed-header header#header .navbar-nav {margin-top: 0px;}
+  .crd-ad-topo .crd-adsense{width: 768px; height: 90px; margin: 0 auto;}
+  .crd-post .title{font-size: 28px; line-height: 32px;} 
+  .crd-post iframe {max-width: 590px; height: 360px;}
+}
+
+
+
+
+
+
+
+
